@@ -1,0 +1,15 @@
+{
+  "name": "kanban3",
+  "version": "1.0.0",
+  "description": "My own Canban",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siwkowska",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "kanban"
+  }
+}

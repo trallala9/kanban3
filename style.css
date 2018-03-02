@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    width: 300px;
+    margin: 0 10px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+
+}
+
+ul {
+    list-style: none;
+    min-height: 25px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(188, 242, 221);
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color: rgb(159, 221, 192);
+
+}
+
+.btn-delete {
+    float: right;
+    border-radius: 50px;
+    background-color: rgb(170, 226, 259);
+    border: 3px solid white;
+}
+
+.add-card {
+    border-radius: 50px;
+    border: 3px solid rgb(199, 242, 176);
+    color: white;
+    background-color: slategray;
+
+
+}
+
+#board {
+    background-image: url(https://cdn.unifiedcommerce.com/content/product/large/8412668170988.jpg);
+    font-size: 20px;
+    color: rgb(188, 242, 221);
+    background-size: cover;
+    text-shadow: 2px 2px rgb(75, 119, 98);
+    font-family: 'Gudea', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.create-column {
+    color: red;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 30px
+}
